@@ -1,14 +1,13 @@
 body {
-    background-image: url("assets/light-blue.jpg");
-    background-repeat: no-repeat;
-    background-size: auto 100%;  
+    background-image: url("assets/bckgrnd.png");
+  
 
 }
 
 main {
     display: grid;
     height: 100%;
-    grid-template-rows: 750px 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
 }
 
@@ -21,7 +20,7 @@ article {
     margin-right: 18px;
 }
 section{
-    background: rgba(236, 181, 30, 0.4);
+    background: rgba(88, 88, 71, 0.6);
     padding: 50px;
     color: #FFFFFF;
     height: auto;
@@ -31,6 +30,7 @@ section{
 .mywork{
     padding: 30px;
     margin-bottom: 75px;
+ 
 }
 
 nav {
@@ -93,9 +93,7 @@ p {
 @media only screen and (min-width: 600px){
 
  
-    body {
-        background-size: 100% 100%;  
-    }
+ 
     
 
 main {
